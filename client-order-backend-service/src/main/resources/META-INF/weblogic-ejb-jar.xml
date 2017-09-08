@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-ejb-jar version="wls_10.3" xmlns="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar http://xmlns.oracle.com/weblogic/weblogic-ejb-jar/1.2/weblogic-ejb-jar.xsd">
+    <!--     <weblogic-enterprise-bean> -->
+    <!--         <ejb-name>MdbReceiver</ejb-name> -->
+    <!--         <message-driven-descriptor> -->
+    <!--             <destination-jndi-name>DistributedQueueTest</destination-jndi-name> -->
+    <!--         </message-driven-descriptor> -->
+    <!--     </weblogic-enterprise-bean> -->
+    <security-role-assignment>
+        <role-name>zoli</role-name>     
+        <principal-name>zoli</principal-name>
+    </security-role-assignment>
+
+</weblogic-ejb-jar>
